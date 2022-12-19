@@ -936,7 +936,7 @@
   }
 
   .img {
-    width: 30%;
+    width: 50%;
     height: auto;
   }
   
@@ -945,16 +945,16 @@
   }
 
   .text {
-    width: 40vw;
-    height: 20%;
+    width: 60vw;
+    height: 40%;
     text-align: center;
     margin-top: -100px;
   }
 
   #me {
     position: relative;
-    left: 20%;
-    top: -25%;
+    left: 35%;
+    top: -20%;
     transition: opacity 0.5s ease-in-out;
   }
   
