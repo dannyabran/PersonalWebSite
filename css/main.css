@@ -920,7 +920,8 @@
     padding: 0;
     margin: 0;
     max-width: 100%;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     position: relative;
     font-family: 'Open Sans', sans-serif
   }
@@ -990,7 +991,7 @@
   
   .dots2 {
     width: 15%;
-    margin-left: 25%;
+    margin-left: 20%;
   }
 
   .contact {
@@ -1053,9 +1054,15 @@
     justify-content: center;
     align-content: center;
     gap: 2%;
+    overflow: hidden;
   }
+
   .slide .button {
     height: 50%;
+  }
+
+  #works{
+    overflow: hidden;
   }
 
   .button {
@@ -1096,6 +1103,16 @@
     width: 90%;
     margin-left: 5%;
     margin-top: 30%;
+  }
+
+  #interaction-1{
+    overflow: hidden;
+  }
+  #interaction-2{
+    overflow: hidden;
+  }
+  #interaction-3{
+    overflow: hidden;
   }
 
   #interaction-1 img{
