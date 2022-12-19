@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap')
+
+*
+    padding: 0
+    margin: 0
+    max-width: 100%
+    overflow: hidden
+    position: relative
+    font-family: 'Open Sans', sans-serif
+
+.background
+    background: linear-gradient(90deg, #7E2CC9, #4937CC)
+    background-size: 400% 400%
+    -webkit-animation: anim 5s infinite ease-in-out
+    animation: anim 5s infinite ease-in-out
+    height: 100vh
+
+@-webkit-keyframes anim
+  0% {
+    background-position: 0 50%
+
+  50% {
+    background-position: 100% 50%
+
+  100% {
+    background-position: 0 50%
+
+@keyframes anim
+    0%
+        background-position: 0 50%
+
+    50%
+        background-position: 100% 50%
+
+    100%
+        background-position: 0 50%
+
+.container
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+
+.img
+    width: 20%
+    height: auto
+
+
+    & img
+        width: 100%
+        cursor: pointer
+
+.text
+    width: 40vw
+    height: 17%
+    text-align: center
+    margin-top: -100px
+
+
+    & p
+        padding-top: 7%
+        color: white
+        font-size: 20px
+
+.right
+    color: white
+    float: right
+    margin-top: 23px
+    opacity: 0
+    transition: opacity 0.5s ease-in-out
+
+.show
+    opacity: 1
+
+.main-cont
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 100vw
+    height: 100vh
+
+#section-1
+    margin-left: 1%
+    height: 80vh
+    width: 25%
+    border-radius: 25px
+
+#section-2
+    margin-left: 1%
+    height: 80vh
+    width: 25%
+    border-radius: 25px
+
+#section-3
+    margin-left: 1%
+    height: 80vh
+    width: 25%
+    border-radius: 25px
+
+.perfil
+    width: 100%
+    background-color: #25252f
+    border-radius: 25px
+    height: 100%
+
+#social-media
+    width: 100%
+    background-color: #25252f
+    border-radius: 25px
+    height: 22%
+    margin-bottom: 5%
+
+#works
+    width: 100%
+    background-color: #25252f
+    border-radius: 25px
+    height: 77%
+
+#interaction-1
+    cursor: pointer
+    width: 100%
+    height: 33%
+    background-color: #25252f
+    border-radius: 25px
+    margin-bottom: 5%
+    transition: height 0.5s ease-in-out
+
+#interaction-2
+    cursor: pointer
+    width: 100%
+    height: 31%
+    background-color: #25252f
+    border-radius: 25px
+    margin-bottom: 5%
+    transition: height 0.5s ease-in-out
+
+#interaction-3
+    cursor: pointer
+    width: 100%
+    height: 32%
+    background-color: #25252f
+    border-radius: 25px
+    transition: height 0.5s ease-in-out
+
+.full
+    height: 75% !important
+
+.min
+    height: 10% !important
+
+.titulo-name
+    border-radius: 10px
+    background-color: #1c1c25
+    width: 80%
+    height: -webkit-fit-content
+    height: -moz-fit-content
+    height: fit-content
+    margin-top: 4%
+    margin-left: 5%
+    margin-bottom: 4%
+    padding: 5%
+
+#name
+    font-size: 25px
+    color: white
+    display: inline
+    font-size: 25px
+
+#svg
+    margin-left: auto
+    margin-right: auto
+    display: flex
+    align-content: center
+    justify-content: center
+    background-color: #39354d
+    width: 90%
+    height: 40%
+    border-radius: 25px
+    border: 5px solid white
+
+#dani
+    width: 45%
+
+.click_me
+    font-size: 20px
+    position: absolute
+    top: 36%
+    left: 12%
+    color: white
+    opacity: 1
+
+.notShow
+    opacity: 0
+
+#me
+    position: relative
+    left: 13%
+    top: -25%
+    transition: opacity 0.5s ease-in-out
+
+.button
+    position: relative
+    display: inline-block
+    height: 70%
+    width: auto
+    margin-top: 6%
+
+
+    & a
+        color: white
+        text-align: center
+        text-decoration: none
+        background-color: #3d3952
+        display: block
+        position: relative
+        padding: 20px 25px
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+        text-shadow: 0px 1px 0px #000
+        filter: dropshadow(color=#000, offx=0px, offy=1px)
+        box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0), 0 10px 0 #322f42
+        border-radius: 100px
+
+
+    & a:active
+        top: 10px
+        background-color: #39354d
+        box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0), inset 0 -3px 0 #322f42
+
+
+    & a:hover
+        background-color: #373547
+
+
+    .slide & svg
+        cursor: pointer
+        color: white
+        text-align: center
+        text-decoration: none
+        background-color: #39354d
+        display: block
+        position: relative
+        padding: 20px 25px
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+        text-shadow: 0px 1px 0px #000
+        filter: dropshadow(color=#000, offx=0px, offy=1px)
+        box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0), 0 10px 0 #2e2b3d
+        border-radius: 100px
+
+
+    .slide & svg:active
+        top: 10px
+        background-color: #39354d
+        box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0), inset 0 -3px 0 #2e2b3d
+
+.carrosel
+    margin-left: auto
+    margin-right: auto
+    margin-top: 5%
+    width: 90%
+    height: 50%
+    border-radius: 20px
+    background-color: #39354d
+
+.titulo-projeto
+    width: 100%
+    color: white
+    text-align: center
+    margin-top: 5%
+    font-size: 2em
+    line-height: 2em
+    display: none
+
+.slide
+    display: flex
+    justify-content: center
+    width: 100%
+    height: 40%
+    gap: 20%
+
+.nothidden
+    display: block !important
+
+.carrosel img
+    width: 100%
+    height: 100%
+    display: none
+
+.notshowed
+    display: block !important
+
+.social
+    width: 100%
+    height: 100%
+    display: flex
+    justify-content: center
+    align-content: center
+    gap: 10%
+
+.dots
+    width: 15%
+    height: 50%
+    display: inline-block
+
+.slider
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+
+.titulo
+    width: 60%
+
+.dots2
+    width: 15%
+    margin-left: 33%
+
+.contact
+    margin-top: 3%
+    width: 100%
+    height: 12%
+
+
+    & a
+        margin-left: 25%
+        width: 40%
+        color: white
+        font-size: 14px
+        text-align: center
+        text-decoration: none
+        background-color: #fa0808
+        display: block
+        position: relative
+        padding: 20px 25px
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+        text-shadow: 0px 1px 0px #000
+        filter: dropshadow(color=#000, offx=0px, offy=1px)
+        box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0), 0 10px 0 #a70606
+        border-radius: 100px
+
+
+    & a:active
+        top: 10px
+        background-color: #fa0808
+        box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0), inset 0 -3px 0 #a70606
+
+#skills
+    margin-top: 3%
+    width: 90%
+    border-radius: 15px
+    height: 23%
+    margin-left: 5%
+
+#cover
+    margin-top: 3%
+    position: absolute
+    z-index: 2
+    background-color: #1c1c25
+    width: 90%
+    height: 23%
+    margin-left: 5%
+    border-radius: 15px
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+
+
+    & .unlock
+        height: 50%
+        width: auto
+        margin-top: 6%
+        cursor: pointer
+
+
+    & .unlock svg
+        color: white
+        text-align: center
+        text-decoration: none
+        background-color: #3d3952
+        display: block
+        position: relative
+        padding: 20px 25px
+        text-shadow: 0px 1px 0px #000
+        filter: dropshadow(color=#000, offx=0px, offy=1px)
+        box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0), 0 10px 0 #322f42
+        border-radius: 100px
+
+
+    & .unlock svg:active
+        top: 10px
+        background-color: #39354d
+        box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0), inset 0 -3px 0 #322f42
+
+
+    & .unlock svg:hover
+        background-color: #373547
+
+.text-unlock
+    text-align: center
+    color: white
+    margin-top: 2%
+    opacity: 1
+
+.hidden
+    opacity: 0
+
+
+.something
