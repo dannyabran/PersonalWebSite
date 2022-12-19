@@ -914,7 +914,7 @@
   
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 350px) and (max-width: 600px){
 
   * {
     padding: 0;
