@@ -948,7 +948,6 @@
     width: 60vw;
     height: 40%;
     text-align: center;
-    margin-top: -100px;
   }
 
   #me {
@@ -964,6 +963,7 @@
     height: 80vh;
     width: 90%;
     border-radius: 25px;
+    overflow: hidden;
   }
   
   #section-2 {
@@ -971,6 +971,7 @@
     height: 85vh;
     width: 90%;
     border-radius: 25px;
+    overflow: hidden;
   }
   
   #section-3 {
@@ -978,6 +979,7 @@
     height: 80vh;
     width: 90%;
     border-radius: 25px;
+    overflow: hidden;
   }
 
   #name {
