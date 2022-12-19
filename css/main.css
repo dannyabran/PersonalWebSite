@@ -548,7 +548,7 @@
   color: white;
   width: 90%;
   margin-left: 5%;
-  margin-top: 20%;
+  margin-top: 23%;
 }
 
 #interaction-1 img{
@@ -568,4 +568,544 @@
   margin-left: 25%;
   margin-top: 2%;
 }
-/*# sourceMappingURL=main.css.map */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+
+  .img {
+    width: 30%;
+    height: auto;
+  }
+  
+  .img img {
+    width: 100%;
+  }
+
+  .text {
+    width: 40vw;
+    height: 20%;
+    text-align: center;
+    margin-top: -100px;
+  }
+
+  #me {
+    position: relative;
+    left: 20%;
+    top: -25%;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  #section-1 {
+    margin-left: 1%;
+    height: 80vh;
+    width: 30%;
+    border-radius: 25px;
+  }
+  
+  #section-2 {
+    margin-left: 1%;
+    height: 80vh;
+    width: 33%;
+    border-radius: 25px;
+  }
+  
+  #section-3 {
+    margin-left: 1%;
+    height: 80vh;
+    width: 30%;
+    border-radius: 25px;
+  }
+
+  #name {
+    font-size: 1.4em;
+    color: white;
+    display: inline;
+  }
+  
+  .dots2 {
+    width: 15%;
+    margin-left: 5%;
+  }
+
+  .contact {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 100%;
+    height: 12%;
+  }
+  
+  .contact a {
+    margin-left: 23%;
+    width: 30%;
+    color: white;
+    font-size: .4em;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fa0808;
+    display: block;
+    position: relative;
+    padding: 20px 25px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-shadow: 0px 1px 0px #000;
+    filter: dropshadow(color=#000, offx=0px, offy=1px);
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0), 0 10px 0 #a70606;
+    border-radius: 100px;
+  }
+
+  #graphic-design p{
+    padding-top: 4%;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+  }
+
+  #web-design p{
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+  }
+
+  #model p{
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+  }
+ 
+  #photography p{
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+  }
+
+  .social {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 2%;
+  }
+
+  .button {
+    position: relative;
+    display: inline-block;
+    height: 75%;
+    width: auto;
+    margin-top: 6%;
+  }
+  
+  .button a {
+    width: 50%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3d3952;
+    display: block;
+    position: relative;
+    padding: 20px 25px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-shadow: 0px 1px 0px #000;
+    filter: dropshadow(color=#000, offx=0px, offy=1px);
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0), 0 10px 0 #322f42;
+    border-radius: 100px;
+  }
+
+  .facts{
+    text-align: center;
+    color: white;
+    padding-top: 30%;
+    font-size: 40px;
+  }
+
+  .text-facts{
+    color: white;
+    font-size: 14px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 28%;
+  }
+
+  #interaction-1 img{
+    height: 25%;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+  
+  #interaction-2 img{
+    height: 20%;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+  
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+
+  .img {
+    width: 30%;
+    height: auto;
+  }
+  
+  .img img {
+    width: 100%;
+  }
+
+  .text {
+    width: 40vw;
+    height: 20%;
+    text-align: center;
+    margin-top: -100px;
+  }
+
+  #me {
+    position: relative;
+    left: 20%;
+    top: -25%;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  #section-1 {
+    margin-left: 1%;
+    height: 80vh;
+    width: 30%;
+    border-radius: 25px;
+  }
+  
+  #section-2 {
+    margin-left: 1%;
+    height: 80vh;
+    width: 33%;
+    border-radius: 25px;
+  }
+  
+  #section-3 {
+    margin-left: 1%;
+    height: 80vh;
+    width: 30%;
+    border-radius: 25px;
+  }
+
+  #name {
+    font-size: 1.3em;
+    color: white;
+    display: inline;
+  }
+  
+  .dots2 {
+    width: 15%;
+    margin-left: 5%;
+  }
+
+  .contact {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 100%;
+    height: 12%;
+  }
+  
+  .contact a {
+    margin-left: 23%;
+    width: 30%;
+    color: white;
+    font-size: .4em;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fa0808;
+    display: block;
+    position: relative;
+    padding: 20px 25px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-shadow: 0px 1px 0px #000;
+    filter: dropshadow(color=#000, offx=0px, offy=1px);
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0), 0 10px 0 #a70606;
+    border-radius: 100px;
+  }
+
+  #graphic-design p{
+    padding-top: 4%;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+  }
+
+  #web-design p{
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+  }
+
+  #model p{
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+  }
+ 
+  #photography p{
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+  }
+
+  .social {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 2%;
+  }
+
+  .button {
+    position: relative;
+    display: inline-block;
+    height: 70%;
+    width: auto;
+    margin-top: 6%;
+    margin-left: 1%;
+  }
+  
+  .button a {
+    width: 40%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3d3952;
+    display: block;
+    position: relative;
+    padding: 20px 25px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-shadow: 0px 1px 0px #000;
+    filter: dropshadow(color=#000, offx=0px, offy=1px);
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0), 0 10px 0 #322f42;
+    border-radius: 100px;
+  }
+
+  .facts{
+    text-align: center;
+    color: white;
+    padding-top: 32%;
+    font-size: 40px;
+  }
+
+  .text-facts{
+    color: white;
+    font-size: 14px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 34%;
+  }
+
+  #interaction-1 img{
+    height: 25%;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+  
+  #interaction-2 img{
+    height: 20%;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+  
+}
+
+@media only screen and (max-width: 600px){
+
+  * {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    overflow: auto;
+    position: relative;
+    font-family: 'Open Sans', sans-serif
+  }
+
+  .main-cont {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 260vh;
+    gap: 1%;
+  }
+
+  .img {
+    width: 30%;
+    height: auto;
+  }
+  
+  .img img {
+    width: 100%;
+  }
+
+  .text {
+    width: 40vw;
+    height: 20%;
+    text-align: center;
+    margin-top: -100px;
+  }
+
+  #me {
+    position: relative;
+    left: 20%;
+    top: -25%;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  #section-1 {
+    margin-top: 3%;
+    margin-left: 1%;
+    height: 80vh;
+    width: 90%;
+    border-radius: 25px;
+  }
+  
+  #section-2 {
+    margin-left: 1%;
+    height: 85vh;
+    width: 90%;
+    border-radius: 25px;
+  }
+  
+  #section-3 {
+    margin-left: 1%;
+    height: 80vh;
+    width: 90%;
+    border-radius: 25px;
+  }
+
+  #name {
+    font-size: 1.3em;
+    color: white;
+    display: inline;
+  }
+  
+  .dots2 {
+    width: 15%;
+    margin-left: 25%;
+  }
+
+  .contact {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 100%;
+    height: 12%;
+  }
+  
+  .contact a {
+    margin-left: 23%;
+    width: 30%;
+    color: white;
+    font-size: .4em;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fa0808;
+    display: block;
+    position: relative;
+    padding: 20px 25px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-shadow: 0px 1px 0px #000;
+    filter: dropshadow(color=#000, offx=0px, offy=1px);
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0), 0 10px 0 #a70606;
+    border-radius: 100px;
+  }
+
+  #graphic-design p{
+    padding-top: 4%;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+  }
+
+  #web-design p{
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+  }
+
+  #model p{
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+  }
+ 
+  #photography p{
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+  }
+
+  .social {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 2%;
+  }
+  .slide .button {
+    height: 50%;
+  }
+
+  .button {
+    position: relative;
+    display: inline-block;
+    height: 70%;
+    width: auto;
+    margin-top: 6%;
+    margin-left: 1%;
+  }
+  
+  .button a {
+    width: 40%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3d3952;
+    display: block;
+    position: relative;
+    padding: 20px 25px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-shadow: 0px 1px 0px #000;
+    filter: dropshadow(color=#000, offx=0px, offy=1px);
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0), 0 10px 0 #322f42;
+    border-radius: 100px;
+  }
+
+  .facts{
+    text-align: center;
+    color: white;
+    padding-top: 20%;
+    font-size: 40px;
+  }
+
+  .text-facts{
+    color: white;
+    font-size: 14px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30%;
+  }
+
+  #interaction-1 img{
+    height: 25%;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+  
+  #interaction-2 img{
+    height: 20%;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+  
+}
