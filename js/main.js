@@ -137,3 +137,9 @@ $('.unlock').click(function() {
     console.log('click');
     $('#cover').addClass('hide');
 });
+
+$('.carrosel').hover(function() {
+    $('.eye').removeClass('escondido');
+},function() {
+    $('.eye').addClass('escondido');
+});
